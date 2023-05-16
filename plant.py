@@ -6,7 +6,7 @@ while menu != "0":
     carrega_imagem = input ("Digite o nome da planta, Ex (imagem.jpg):")
 
     # Carregar modelo de detecção de doenças em plantas
-    modelo = tf.keras.models.load_model('modelo.h5')
+    modelo = tf.keras.models.load_model('')
     # Ler imagem da planta
     imagem = cv2.imread(carrega_imagem)
     # Redimensionar imagem para entrada do modelo
